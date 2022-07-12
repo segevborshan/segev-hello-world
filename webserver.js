@@ -3,7 +3,7 @@ const PORT = 80;
 const HOST = '0.0.0.0';
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello World, is it working??');
+  res.send('Hello World, its working!');
 });
 
 app.listen(PORT, HOST);
